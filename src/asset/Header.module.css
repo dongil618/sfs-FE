@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    align-items: center;
+    transition: box-shadow 0.3s;
+    flex-shrink: 0;
+    padding: 0 300px;
+    white-space: nowrap;
+    background-color: var(--header-bg-color);
+    height: 75px;
+    font-size: 14px;
+    justify-content: space-between;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.50);
+    border-bottom: 1px solid #eee;
+    background-color: white;
+    /* 헤더 고정 */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.header_menu {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 55px;
+}
+
+.header_menu li {
+    padding: 0px 20px
+}
+
+.header_menu li a {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--menu-font-color);
+}
