@@ -1,7 +1,6 @@
-import { Button, Slider, TextField, Divider } from '@mui/material';
 import { Link } from "react-router-dom";
 import React, { useState } from 'react';
-import { FormControl, InputLabel, Select, MenuItem } from '@mui/material';
+import { FormControl, InputLabel, Select, MenuItem, Button, Slider, TextField } from '@mui/material';
 
 export default function Product() {
 

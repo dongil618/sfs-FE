@@ -11,6 +11,8 @@ import Coordie from './page/Coordie';
 import Gif from './page/Gif';
 import Image from './page/Image';
 import Wholesale from './page/Wholesale';
+import Login from './page/Login';
+import Signup from './page/Signup';
 
 function App() {
   const menu_list = [
@@ -37,6 +39,8 @@ function App() {
             <Route path='/gif' element={<Gif />}></Route>
             <Route path='/coordie' element={<Coordie />}></Route>
             <Route path='/wholesale' element={<Wholesale />}></Route>
+            <Route path='/login' element={<Login />}></Route>
+            <Route path='/signup' element={<Signup />}></Route>
           </Routes>
         </div>
       </BrowserRouter>
